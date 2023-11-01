@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"> <!-- Changed background color to white -->
+
+    <!-- Cover Photo -->
+    <ImageView
+        android:id="@+id/cover_photo"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/cover_photo" />
+
+    <!-- Profile Picture -->
+    <ImageView
+        android:id="@+id/profile_pic"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="150dp"
+        android:src="@drawable/profile_pic"
+        android:background="@drawable/profile_pic" />
+
+    <!-- Edit Profile Button -->
+    <Button
+        android:id="@+id/edit_profile_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Edit Profile"
+        android:layout_below="@id/profile_pic"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp" />
+
+    <!-- User Details -->
+
+    <!-- Interests and Hobbies -->
+    <TextView
+        android:id="@+id/your_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/edit_profile_button"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="42dp"
+        android:text="Deaf Person's Name"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/your_location"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/your_name"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="48dp"
+        android:text="Your Location"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/interests_hobbies"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Interests and Hobbies"
+    android:layout_below="@id/your_location"
+    android:layout_centerHorizontal="true"
+    android:layout_marginTop="16dp"
+    android:textSize="18sp" />
+
+    <!-- Social Media Links -->
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/interests_hobbies"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="8dp"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="32dp"
+            android:layout_height="32dp"
+            android:src="@drawable/facebook_icon" />
+        <ImageView
+            android:layout_width="32dp"
+            android:layout_height="32dp"
+            android:src="@drawable/insta_icon" />
+
+
+    </LinearLayout>
+
+    <!-- Additional Features -->
+    <!-- Add more features or widgets as needed for your app -->
+
+</RelativeLayout>

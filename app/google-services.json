@@ -1,0 +1,68 @@
+{
+  "project_info": {
+    "project_number": "297927510593",
+    "project_id": "comsense-b15c3",
+    "storage_bucket": "comsense-b15c3.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:297927510593:android:c96c3a15e433aa547fd4c0",
+        "android_client_info": {
+          "package_name": "com.example.coms"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "297927510593-p0hhnopnjt5pv2l84s2bm37fqvgapvdc.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBk_5Onj99SRvxbrnz74hNDzPx4sl0rNfY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "297927510593-p0hhnopnjt5pv2l84s2bm37fqvgapvdc.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:297927510593:android:b5d36d188c0f88087fd4c0",
+        "android_client_info": {
+          "package_name": "com.example.comsense"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "297927510593-p0hhnopnjt5pv2l84s2bm37fqvgapvdc.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBk_5Onj99SRvxbrnz74hNDzPx4sl0rNfY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "297927510593-p0hhnopnjt5pv2l84s2bm37fqvgapvdc.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
